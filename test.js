@@ -7,7 +7,7 @@ const URL = "https://fakestoreapi.com";
 function fakeDataGenerator() {
     return {
         title: faker.commerce.productName(),
-        price: faker.random.number({ min: 1, max: 100 }),
+        price: faker.random.number({ min: 1, max: 10 }),
         description: faker.lorem.sentence(),
         category: faker.random.word(),
         image: faker.image.imageUrl()
